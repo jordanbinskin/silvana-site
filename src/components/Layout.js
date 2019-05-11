@@ -203,11 +203,6 @@ const Layout = ({ children, customSEO }) => {
         {!customSEO && <SEO buildTime={buildTime} />}
         <GlobalStyle />
         {children}
-        <Footer>
-          &copy; 2019 by John Doe. All rights reserved. <br />
-          <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
-          <span>Last build: {buildTime}</span>
-        </Footer>
       </>
     </ThemeProvider>
   )
